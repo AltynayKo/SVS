@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-22T12:02:28Z" name="Command line suite" finished-at="2024-12-22T12:02:28Z" duration-ms="99">
+    <groups>
+      <group name="beginner">
+        <method signature="AirDefaultPageTest.assertOtherCountryItemIsDisplayed()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872]" name="assertOtherCountryItemIsDisplayed" class="com.epam.stv.design.AirDefaultPageTest"/>
+        <method signature="AirDefaultPageTest.clickOnOtherCountryLink()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872]" name="clickOnOtherCountryLink" class="com.epam.stv.design.AirDefaultPageTest"/>
+        <method signature="AirDefaultPageTest.inspectAirHomePageOpened()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872]" name="inspectAirHomePageOpened" class="com.epam.stv.design.AirDefaultPageTest"/>
+      </group> <!-- beginner -->
+    </groups>
+    <test started-at="2024-12-22T12:02:28Z" name="Command line test" finished-at="2024-12-22T12:02:28Z" duration-ms="99">
+      <class name="com.epam.stv.design.AirDefaultPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872]" started-at="2024-12-22T17:02:28Z" name="setUp" description="Start browser" finished-at="2024-12-22T17:02:28Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:142)
+	at com.epam.stv.design.BasicTest.setChromeDriver(BasicTest.java:44)
+	at com.epam.stv.design.BasicTest.getDriver(BasicTest.java:31)
+	at com.epam.stv.design.BasicTest.setUp(BasicTest.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at com.epam.stv.design.TestRunner.main(TestRunner.java:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="addImplicitly()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872]" started-at="2024-12-22T17:02:28Z" name="addImplicitly" description="Add implicite wait and maximize window" finished-at="2024-12-22T17:02:28Z" depends-on-methods="com.epam.stv.design.BasicTest.setUp" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImplicitly -->
+        <test-method is-config="true" signature="enableJavaScript()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872]" started-at="2024-12-22T17:02:28Z" name="enableJavaScript" finished-at="2024-12-22T17:02:28Z" depends-on-methods="com.epam.stv.design.BasicTest.setUp" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableJavaScript -->
+        <test-method signature="assertOtherCountryItemIsDisplayed()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872]" started-at="2024-12-22T17:02:28Z" name="assertOtherCountryItemIsDisplayed" finished-at="2024-12-22T17:02:28Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:142)
+	at com.epam.stv.design.BasicTest.setChromeDriver(BasicTest.java:44)
+	at com.epam.stv.design.BasicTest.getDriver(BasicTest.java:31)
+	at com.epam.stv.design.BasicTest.setUp(BasicTest.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at com.epam.stv.design.TestRunner.main(TestRunner.java:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertOtherCountryItemIsDisplayed -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872]" started-at="2024-12-22T17:02:28Z" name="afterClass" finished-at="2024-12-22T17:02:28Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method signature="clickOnOtherCountryLink()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872]" started-at="2024-12-22T17:02:28Z" name="clickOnOtherCountryLink" finished-at="2024-12-22T17:02:28Z" depends-on-methods="com.epam.stv.design.AirDefaultPageTest.assertOtherCountryItemIsDisplayed" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AirDefaultPageTest.clickOnOtherCountryLink()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AirDefaultPageTest.clickOnOtherCountryLink()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at com.epam.stv.design.TestRunner.main(TestRunner.java:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnOtherCountryLink -->
+        <test-method signature="inspectAirHomePageOpened()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872]" started-at="2024-12-22T17:02:28Z" name="inspectAirHomePageOpened" finished-at="2024-12-22T17:02:28Z" depends-on-methods="com.epam.stv.design.AirDefaultPageTest.clickOnOtherCountryLink" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AirDefaultPageTest.inspectAirHomePageOpened()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AirDefaultPageTest.inspectAirHomePageOpened()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@754ba872] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at com.epam.stv.design.TestRunner.main(TestRunner.java:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inspectAirHomePageOpened -->
+      </class> <!-- com.epam.stv.design.AirDefaultPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="17303" started-at="2017-10-15T22:16:05Z" finished-at="2017-10-15T22:16:23Z">
+    <groups>
+      <group name="beginner">
+        <method signature="AirDefaultPageTest.assertOtherCountryItemIsDisplayed()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@19866c]" name="assertOtherCountryItemIsDisplayed" class="com.epam.stv.design.AirDefaultPageTest"/>
+        <method signature="AirDefaultPageTest.clickOnOtherCountryLink()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@19866c]" name="clickOnOtherCountryLink" class="com.epam.stv.design.AirDefaultPageTest"/>
+        <method signature="AirDefaultPageTest.inspectAirHomePageOpened()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@19866c]" name="inspectAirHomePageOpened" class="com.epam.stv.design.AirDefaultPageTest"/>
+      </group> <!-- beginner -->
+    </groups>
+    <test name="Command line test" duration-ms="17303" started-at="2017-10-15T22:16:05Z" finished-at="2017-10-15T22:16:23Z">
+      <class name="com.epam.stv.design.AirDefaultPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@19866c]" name="setUp" is-config="true" duration-ms="12318" started-at="2017-10-16T01:16:05Z" description="Start browser" finished-at="2017-10-16T01:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method name="addImplicitly" signature="addImplicitly()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@19866c]" is-config="true" status="PASS" duration-ms="1542" finished-at="2017-10-16T01:16:19Z" started-at="2017-10-16T01:16:18Z" depends-on-methods="com.epam.stv.design.BasicTest.setUp" description="Add implicite wait and maximize window">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImplicitly -->
+        <test-method status="PASS" signature="enableJavaScript()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@19866c]" name="enableJavaScript" is-config="true" duration-ms="0" started-at="2017-10-16T01:16:19Z" depends-on-methods="com.epam.stv.design.BasicTest.setUp" finished-at="2017-10-16T01:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableJavaScript -->
+        <test-method status="PASS" signature="assertOtherCountryItemIsDisplayed()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@19866c]" name="assertOtherCountryItemIsDisplayed" duration-ms="128" started-at="2017-10-16T01:16:19Z" finished-at="2017-10-16T01:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertOtherCountryItemIsDisplayed -->
+        <test-method status="PASS" signature="clickOnOtherCountryLink()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@19866c]" name="clickOnOtherCountryLink" duration-ms="3203" started-at="2017-10-16T01:16:19Z" depends-on-methods="com.epam.stv.design.AirDefaultPageTest.assertOtherCountryItemIsDisplayed" finished-at="2017-10-16T01:16:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnOtherCountryLink -->
+        <test-method status="PASS" signature="inspectAirHomePageOpened()[pri:0, instance:com.epam.stv.design.AirDefaultPageTest@19866c]" name="inspectAirHomePageOpened" duration-ms="14" started-at="2017-10-16T01:16:23Z" depends-on-methods="com.epam.stv.design.AirDefaultPageTest.clickOnOtherCountryLink" finished-at="2017-10-16T01:16:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inspectAirHomePageOpened -->
+      </class> <!-- com.epam.stv.design.AirDefaultPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

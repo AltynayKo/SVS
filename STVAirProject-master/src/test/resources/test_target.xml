@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Main tests suite" thread-count="1"  >
+    <test verbose="1" name="TestNG" annotations="JDK">
+        <classes>
+            <!-- <class name="com.epam.stv.design.AirDefaultPageTest"/> -->
+            <class name="com.epam.stv.design.ManageBookingTest"/>
+            <!-- <class name="com.epam.stv.design.AirBookingDetailsTest"/>
+            <class name="com.epam.stv.design.AirDoYouWantToGoTest"/>
+            <class name="com.epam.stv.design.SelectTicketTest"/>
+            <class name="com.epam.stv.design.MultipleDestinationTest"/> -->
+                <!--<listeners>-->
+        </classes>
+    </test>
+</suite>
