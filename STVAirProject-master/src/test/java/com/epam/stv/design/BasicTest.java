@@ -56,6 +56,7 @@ public class BasicTest {
         driver.manage().window().maximize();
     }
 */
+    //auto test fix
     @AfterClass(alwaysRun = true)
     public void tearDown() {
         DriverSingleton.closeDriver();
